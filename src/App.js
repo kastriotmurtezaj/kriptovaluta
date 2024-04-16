@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Navigation1 from "./Components/Navigation1/Navigation1";
+import Navigation2 from "./Components/Navigation2/Navigation2";
+import Navigation3 from "./Components/Navigation3/Navigation3";
+import BodyPart1 from "./Components/BodyPart1/BodyPart1";
 
-function App() {
+class App extends Component{
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      <div className="App">
+        <Navigation1 />
+        <Navigation2 />
+        <Navigation3 />
+        <BodyPart1 />
+        
+      </div>
+    );
+  }
+  }
+   
 
 export default App;

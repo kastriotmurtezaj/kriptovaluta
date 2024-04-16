@@ -1,0 +1,35 @@
+.backgroundi{
+    margin-top: 20px;
+    z-index: 2;
+    width: 100px;
+}
+
+.kartat{
+ display: flex;
+ margin-left: 15px;
+ margin-right: 20px;
+
+}
+
+.kart1{
+    z-index: 32;
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+    width: 180px;
+    font-size: small;
+}
+.titullinjo{
+    margin-top: -150px;
+    margin-left: 520px;
+    margin-bottom: 20px;
+    
+}
+
+.saas{
+    width: 300px;
+    font-size: xx-large;
+    color: white;
+
+}
+

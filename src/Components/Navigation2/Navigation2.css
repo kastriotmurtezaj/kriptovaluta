@@ -1,0 +1,81 @@
+
+
+.navigation2{
+    display: flex;
+}
+.kryptozgjedhjet {
+    display: flex;
+}
+.fotoocrypt{
+    width: 150px;
+}
+.zgjedhjet{
+    display: flex;
+    font-size: small;
+    margin-left: -20px;
+}
+
+.zgjedhjet2{
+    display: flex;
+    justify-content: space-between;
+}
+.serchi{
+    margin-right: -60px;
+    margin-left: 30px;
+    margin-top: 10px;
+    z-index: 2;
+    width: 12px;
+    height: 25px;
+}
+
+.kerkimi{
+    margin-left: 34px;
+    padding: 2px 90px 2px 35px;
+    
+}
+.settingsi{
+    margin-left: -40px;
+    margin-right: 30px;
+    height: 18px;
+    width: 20px;
+    margin-top: 13px;
+}
+
+.llabeli{
+    display: flex;
+   
+}
+.zgjedhjet3{
+    display: flex;
+   
+}
+
+.loginjo{
+    margin-bottom:2px ;
+    margin-left: 10px;
+    
+    margin-right: 10px;
+    border-style: none;
+    background-color: white;
+}
+
+.signupinjo{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(46, 46, 199);
+    padding: 5px 10px 5px 10px ;
+    border-style: none;
+
+    border-radius: 5px 5px 5px 5px;
+}
+.setingsii{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.setingsii{
+    margin-top: 10px;
+}
